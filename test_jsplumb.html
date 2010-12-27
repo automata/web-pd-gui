@@ -1,0 +1,29 @@
+<!-- alternative options:
+     http://thejit.org/demos/
+     http://morrisonpitt.com/jsPlumb/html/jquery/demo.html
+     http://vis.stanford.edu/protovis/ex/force.html
+     http://www.graphdracula.net/
+-->
+
+<html>
+  <head>
+    <link type="text/css" rel="stylesheet" href="test_jsplumb.css"></link> 
+
+    <script type="text/javascript" src="http://explorercanvas.googlecode.com/svn/trunk/excanvas.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.0/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="js/jquery.jsPlumb-1.2.4-all-min.js "></script>
+    <script type="text/javascript" src="js/pd.js"></script>
+  </head>
+
+  <body>
+    
+    <script type="text/javascript" src="js/test_jsplumb.js"></script>
+
+    <button style="margin: 15px;" onclick="createGPdObject('osc~ ' + (Math.round(Math.random() * 880)).toString());">Add osc~</button>
+    <button style="margin: 15px;" onclick="createGPdObject('dac~');">Add dac~</button>
+    <button style="margin: 15px;" onclick="pd.play();">Play</button>
+    <button style="margin: 15px;" onclick="pd.stop();">Stop</button>
+  </body>
+</html>
+
