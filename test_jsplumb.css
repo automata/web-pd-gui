@@ -1,0 +1,57 @@
+body {
+    background: #333;
+    color: #fff;
+    font: 300 100.1% "Helvetica Neue", Helvetica, "Arial Unicode MS", Arial, sans-serif;
+}
+
+div.GPdObject { 
+    color: #fff;
+    background-color: #222;
+
+    border: 2px solid #444; 
+    border-radius: 0.6em; 
+    -moz-border-radius: 0.6em; 
+    -webkit-border-radius: 0.6em;
+
+    box-shadow: 0 0 0.3em #000;
+    -moz-box-shadow: 0 0 0.3em #000;
+    -webkit-box-shadow: 0 0 0.3em #000;
+
+    z-index: 20;  
+
+    position: absolute; 
+    padding: 0.5em; 
+    
+    font-family: helvetica;
+    font-size: 0.9em;
+
+    cursor: move;
+    /* we can use CSS3 transforms and animations
+       transition-duration: 0.1s;
+       -moz-transition-duration: 0.1s;
+       -webkit-transition-duration: 0.1s;
+       -o-transition-duration: 0.1s;
+      
+      transform: scale(1.4);
+      -moz-transform: scale(1.4);
+      -webkit-transform: scale(1.4);
+      -o-transform: scale(1.4);
+      */
+}
+
+div.GPdObject:hover {
+    color: black;
+    background-color: #666;
+}
+
+.drag-locked { 
+    border:2px solid red; 
+}
+
+.dropHover { 
+    border: 10px solid red; 
+}
+
+.dragActive { 
+    border: 2px solid red; 
+}
