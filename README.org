@@ -2,10 +2,11 @@
 
 A GUI to chrism's [[http://mccormick.cx/dev/webpd/][web-puredata]] based on [[http://code.google.com/p/jsplumb/][jsPlumb]].
 
-** Tests
+** Demo
 
-- [Using jsPlumb](http://automata.github.com/web-pd-gui/test_jsplumb.html)
-- [Using RaphaelJS](http://automata.github.com/web-pd-gui/test_raphaeljs.html)
+For now there's just a simple alpha-state demo [[http://automata.github.com/web-pd-gui/test_jsplumb.html][here]].
+
+You need [[http://mozilla.com/firefox/beta/][Firefox 4 (beta)]] to run that.
 
 ** Changelog
 
@@ -23,6 +24,3 @@ A GUI to chrism's [[http://mccormick.cx/dev/webpd/][web-puredata]] based on [[ht
 - Implement all the web-pd objects
 - Group selection/remove
 - ...
-
-
-
