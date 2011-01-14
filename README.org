@@ -1,19 +1,19 @@
-#+TITLE: web-pd-gui
+* web-pd-gui
 
-A GUI to chrism's [[web-puredata][http://mccormick.cx/dev/webpd/]] based on [jsPlumb](http://code.google.com/p/jsplumb/).
+A GUI to chrism's [[http://mccormick.cx/dev/webpd/][web-puredata]] based on [[http://code.google.com/p/jsplumb/][jsPlumb]].
 
-* Tests
+** Tests
 
-* [Using jsPlumb](http://automata.github.com/web-pd-gui/test_jsplumb.html)
-* [Using RaphaelJS](http://automata.github.com/web-pd-gui/test_raphaeljs.html)
+- [Using jsPlumb](http://automata.github.com/web-pd-gui/test_jsplumb.html)
+- [Using RaphaelJS](http://automata.github.com/web-pd-gui/test_raphaeljs.html)
 
-* Changelog
+** Changelog
 
-** 27 Dez 2010
+*** 27 Dez 2010
 
 - Created the first test using jsPlumb
 
-* TODO
+** TODO
 
 - Fix pd.play() break bug
 - Use pd._graph after pd.parse() call to get information about inlets/outlets, obj type, number of arguments, etc
