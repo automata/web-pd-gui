@@ -2,26 +2,21 @@
 
 A GUI to chrism's [[http://mccormick.cx/dev/webpd/][web-puredata]] based on [[http://code.google.com/p/jsplumb/][jsPlumb]].
 
-** Demo
+Please, also take a look at Spencer Kelly's HTML5 canvas based [[http://www.spencerwaterbed.com/soft/webpd/][implementation]].
 
-For now there's just a simple alpha-state demo [[http://automata.github.com/web-pd-gui/test_jsplumb.html][here]].
+* Prerequisites
 
 You need [[http://mozilla.com/firefox/beta/][Firefox 4 (beta)]] to run that.
 
-** Changelog
+* Demo
 
-*** 27 Dez 2010
+For now there's just a simple alpha-state demo [[http://automata.github.com/web-pd-gui/test_jsplumb.html][here]].
 
-- Created the first test using jsPlumb
+* Developing
 
-** TODO
+If you want to hack on the code (don't forget to drop me a line, please!),
+download the source from github:
 
-- Fix pd.play() break bug
-- Use pd._graph after pd.parse() call to get information about inlets/outlets, obj type, number of arguments, etc
-- Create PD obj
-- Remove PD obj
-- Edit PD obj
-- Implement all the web-pd objects
-- Group selection/remove
-- ...
-
+#begin_src sh
+git clone http://automata@github.com/automata/web-pd-gui.git
+#end_src
